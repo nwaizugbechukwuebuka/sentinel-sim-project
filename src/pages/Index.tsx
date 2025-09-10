@@ -4,7 +4,6 @@ import { MetricCard } from "@/components/MetricCard";
 import { TechBadge } from "@/components/TechBadge";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { 
   Shield, 
   Target, 
@@ -18,10 +17,8 @@ import {
   Bot,
   Eye,
   FileText,
-  CheckCircle,
-  ArrowRight
+  CheckCircle
 } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Index = () => {
   const keyMetrics = [
@@ -218,21 +215,6 @@ const Index = () => {
               core functions: Identify, Protect, Detect, Respond, Recover.
             </p>
           </Card>
-        </div>
-      </ProjectSection>
-
-      {/* Navigation to Other Projects */}
-      <ProjectSection title="Explore More Projects" className="bg-card/20">
-        <div className="text-center">
-          <Link to="/threat-hunting">
-            <Button size="lg" className="group">
-              Advanced Threat Hunting Lab
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
-          <p className="text-muted-foreground mt-4">
-            Discover my proactive threat hunting and APT detection capabilities
-          </p>
         </div>
       </ProjectSection>
 
