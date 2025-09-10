@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        cyber: {
+          primary: "hsl(var(--cyber-primary))",
+          secondary: "hsl(var(--cyber-secondary))",
+          accent: "hsl(var(--cyber-accent))",
+          warning: "hsl(var(--cyber-warning))",
+          danger: "hsl(var(--cyber-danger))",
+          success: "hsl(var(--cyber-success))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
