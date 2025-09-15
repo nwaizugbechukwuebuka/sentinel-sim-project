@@ -72,7 +72,7 @@ const Index = () => {
     {
       icon: Bot,
       title: "Automation",
-      description: "Use Python scripts to auto-flag suspicious IPs, domains, and hashes"
+      description: "Automated incident response workflows with MITRE ATT&CK mapping for secure software defense"
     }
   ];
 
@@ -87,6 +87,7 @@ const Index = () => {
     {
       category: "Attack Simulation", 
       items: [
+        "Simulated penetration testing use cases to evaluate detection and response effectiveness",
         "Simulated phishing campaigns and credential harvesting with Social Engineering Toolkit (SET)",
         "Executed brute-force and port scanning attacks via Hydra and Nmap",
         "Introduced malware samples in sandboxed environment for detection testing"
